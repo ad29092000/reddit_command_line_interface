@@ -7,16 +7,29 @@ Reddit Cli is a reddit command line interface which could be used to browse and 
 
 Reddit-CLI requires python 3 or above. Get it from [here](https://www.python.org/downloads/windows/)
 
-1. clone repository to your Desktop.
+1. Clone repository to your Desktop.
 
-2. Download and extract.
+2. Download and Extract.
 
 3. Open command prompt and cd to the reddit-cli directory:
 
 4. For installing required packages.
-sh
-```pip install -r requirements.txt```
+```sh
+pip install -r requirements.txt
+```
+5. Create credential.json with following format.
 
+```sh
+{"client_id":"<client_id>", "client_secret":"<client_secret>", "user_agent":"('platform:''com.package.reddit:v1.0''(by /u/username)')"}
+```
+
+6. You can get your client_id and client_secret by creating an app through [this link](https://www.reddit.com/prefs/apps).
+
+7. To run the script, enter 
+```sh
+python -m reddit
+```
+8. Afterwards, follow the on screen instructions
 
 
 ## Usage
