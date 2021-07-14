@@ -15,7 +15,7 @@ Reddit-CLI requires python 3 or above. Get it from [here](https://www.python.org
 
 4. For installing required packages.
 sh
-pip install ```-r requirements.txt```
+```pip install -r requirements.txt```
 
 
 
