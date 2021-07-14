@@ -9,7 +9,7 @@ Reddit-CLI requires python 3 or above. Get it from [here](https://www.python.org
 
 1. clone repository to your Desktop.
 
-2. download and Extract.
+2. Download and extract.
 
 3. Open command prompt and cd to the reddit-cli directory:
 
